@@ -1,0 +1,6 @@
+<h1>All tasks</h1>
+<% @tasks.each do |task| %>
+<h5><%= task.name %></h5>
+<p><%= '🌠' task.describtion '🌠'%></p>
+<p><%= task.completed %></p>
+<% end %>
